@@ -1,0 +1,27 @@
+hr{
+    color:black;
+    width: 190px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+ul{
+    border: 1px solid black;
+    list-style-type: none;
+    width: 190px;
+    margin: 0;
+    padding: 0;
+}
+li a{
+    text-align: center;
+    color: black;
+    display: block;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    background-color: rgb(59, 151, 236);
+}
+li a:hover{
+    background-color: #0c2f7a;
+    color: white;
+}
