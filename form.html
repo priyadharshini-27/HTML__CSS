@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body style="font-size: 18px;">
+    <p>Fill out the details</p>
+    <form style="width: 400px;">
+        <label for="name"><b>Name :</b></label><br>
+        <input type="text" name="name" id="name" style="width: 100%;padding: 10px;margin-top: 10px;margin-bottom: 10px;border-radius: 5px;">
+        <label for="gender"><b>Gender :</b></label><br>
+        <input type="radio" name="gender" id="gender" value="male" style="margin-top: 10px;">Male<br>
+        <input type="radio" name="gender" id="gender" value="female" style="margin-bottom: 10px;">Female<br>
+        <label for="age"><b>Age :</b></label><br>
+        <input type="number" id="age" style="width: 100%;padding: 10px;margin-top: 10px;margin-bottom: 10px;border-radius: 5px;"><br>
+        <label for="hobbies"><b>Hobbies :</b></label><br>
+        <select name="" id="hobbies" style="width: 106%;padding: 10px;margin-bottom: 10px;margin-top: 10px;border-radius: 5px;">
+            <option value="music">Music</option>
+            <option value="dance">Dance</option>
+            <option value="gaming">Gaming</option>
+        </select>
+        <label for="comment"><b>Comments :</b></label><br>
+        <textarea name="comment" id="comment" cols="50" rows="5" style="margin-top: 10px;"></textarea>
+        <input type="submit" value="Submit" style="padding: 10px; width: 40%;margin-left: 30px;margin-top: 10px;">
+        <input type="reset" value="Reset" style="padding: 10px; width: 40%;">
+    </form>
+</body>
+
+</html>
