@@ -1,0 +1,44 @@
+p{
+    padding: 10px;
+    font-size: large;
+}
+#b1{
+    border-style: solid;
+    border-color: aqua;
+    border-width: 2px ;
+}
+#b2{
+    border-style: dotted;
+    border-color: brown;
+    border-width: 2px 4px 6px 8px;
+}
+#b3{
+    border-style: dashed;
+    border-color: chocolate;
+    border-width: 2px 4px 6px 9px;
+}
+#b4{
+    border-style: groove;
+    border-color: aqua;
+    border-width: 18px ;
+}
+#b5{
+    border-style: inset;
+    border-color: rgb(228, 65, 10);
+    border-width: 10px ;
+}
+#b6{
+    border-style: outset;
+    border-color: aqua;
+    border-width: 10px ;
+}
+#b7{
+    border-style: ridge;
+    border-color: aqua;
+    border-width: 18px;
+}
+#b8{
+    border-style: double;
+    border-color: turquoise;
+    border-width: 10px;
+}
