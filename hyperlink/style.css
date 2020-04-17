@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+p{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    text-align: left;
+}
+a:hover{
+    text-decoration: underline;
+    color: brown;
+}
